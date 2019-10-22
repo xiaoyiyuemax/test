@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.big{
+    width: 100%;
+    overflow: hidden;
+}
+.tong{
+    background-position: center;
+    background-size: cover;
+    border-left: 1px solid white;
+    box-sizing: border-box;
+}
+.img-1{
+    background-image: url(https://mobike.com/cn/assets/themes/moby/img/promo-01.jpg);
+    height: 206px;
+    width: 25%;
+    float: left;
+}
+.img-2{
+    background-image: url(https://mobike.com/cn/assets/themes/moby/img/promo-02.jpg);
+    height: 206px;
+    width: 25%;
+    float: left;
+}
+.img-3{
+    background-image: url(https://mobike.com/cn/assets/themes/moby/img/promo-03.jpg);
+    height: 206px;
+    width: 25%;
+    float: left;
+}
+.img-4{
+    background-image: url(https://mobike.com/cn/assets/themes/moby/img/promo-04.jpg);
+    height: 206px;
+    width: 25%;
+    float: left;
+}
+.bottom-content{
+    padding: 45px 20px;
+    width: 1080px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+} 
+.bottom-col{
+    width: 33.33%;
+    height: 140px;
+    display: flex;
+    flex: 1;
+}
+.bottom-col1 {
+    justify-content: flex-start;
+}
+.bottom-col2{
+    justify-content: center;
+}
+.bottom-col3{
+    justify-content: flex-end;
+}
+.icon{
+    background-image: url(https://mobike.com/cn/assets/themes/moby/img/icon-wechat.png);
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.aa{
+    background-image: url(https://mobike.com/cn/assets/themes/moby/img/icon-rp.png);
+    width: 50px;
+    height: 50px;
+}
+.bb{
+    background-image: url(https://mobike.com/cn/assets/themes/moby/img/icon-credit.png);
+    width: 50px;
+    height: 50px;
+}
+.head{
+    float: left;
+    height: 44px;
+}
+.head h4{
+    font-weight: 400;
+    font-size: 16px;
+}
+.head p{
+    font-weight: 300;
+    font-size: 16px;;
+}
+.footer{
+    height: 157.2px;
+    width: 1040px;
+    margin: 0 auto;
+    display: flex;
+}
+.font-logo{
+    width: 33.33%;
+}
+.logo{
+    background-image: url(https://mobike.com/cn/assets/themes/moby/img/logo-text.svg);
+    width: 160px;
+    height: 36.8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display:block;
+}
+.footer-list-wrap{
+    width: 66.66%;
+    flex: 1;
+}
+.font-logo li a{
+     text-decoration: none;
+     color: black;
+     font-size: 16px;
+}
+.font-logo li{
+    font-size: 16px;
+}
+.footer-list-wrap{
+    width: 66.66%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list{
+    flex:1;
+}
+.footer-list a{
+    font-size: 16px;
+    color: black;
+}
